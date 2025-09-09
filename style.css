@@ -1,7 +1,7 @@
 /* Set a modern, easy-to-read font for the whole page */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4fafd;
+  background-color: #e7f4fa;
 }
 
 /* Style for the call-to-action banner using a blue & teal palette and a background image */
@@ -10,7 +10,7 @@ body {
   background-size: cover;
   padding: 60px 15px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 9px;
   border: 2px solid #4fc3f7;
   margin: 0 0 40px 0; /* Remove top margin, keep bottom margin */
   position: relative; /* Position relative for absolute children */
@@ -31,17 +31,17 @@ body {
 /* Main heading: large and bold, using a very dark blue color for contrast */
 .cta-banner h1 {
   font-size: 3.5em;
-  color: #003049; /* Very dark blue for strong contrast */
+  color: #002336; /* Very dark blue for strong contrast */
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 33px;
   position: relative;
   z-index: 2;
 }
 
 /* Description: slightly larger text, very dark blue for readability */
 .cta-banner p {
-  font-size: 1.2em;
-  color: #003049; /* Very dark blue for strong contrast */
+  font-size: 1.25em;
+  color: #01293f; /* Very dark blue for strong contrast */
   margin-bottom: 36px;
   position: relative;
   z-index: 2;
