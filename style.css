@@ -1,0 +1,124 @@
+/* Set a modern, easy-to-read font for the whole page */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4fafd;
+}
+
+/* Style for the call-to-action banner using a blue & teal palette and a background image */
+.cta-banner {
+  background: #b2ebf2 url('img/cta-bg.jpg') center center no-repeat;
+  background-size: cover;
+  padding: 60px 15px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #4fc3f7;
+  margin: 0 0 40px 0; /* Remove top margin, keep bottom margin */
+  position: relative; /* Position relative for absolute children */
+}
+
+/* Lighter overlay on the CTA banner */
+.cta-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* Even lighter overlay */
+  z-index: 1;
+}
+
+/* Main heading: large and bold, using a very dark blue color for contrast */
+.cta-banner h1 {
+  font-size: 3.5em;
+  color: #003049; /* Very dark blue for strong contrast */
+  margin-top: 0;
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Description: slightly larger text, very dark blue for readability */
+.cta-banner p {
+  font-size: 1.2em;
+  color: #003049; /* Very dark blue for strong contrast */
+  margin-bottom: 36px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Call-to-action button: bright teal background, white text */
+.cta-button {
+  background-color: #00bcd4; /* Bright teal */
+  color: #fff;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: 1.1em;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 10px;
+  /* Add a simple shadow for emphasis */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  position: relative;
+  z-index: 2;
+}
+
+/* Button hover effect: slightly darker teal */
+.cta-button:hover {
+  background-color: #008ba3;
+}
+
+/* Style for the site header using the blue & teal palette */
+.site-header {
+  background-color: #4fc3f7; /* Soft blue */
+  padding: 18px 0;
+  text-align: center;
+  border-bottom: 2px solid #00bcd4; /* Teal border */
+}
+
+.site-header h2 {
+  color: #006064; /* Dark teal */
+  font-size: 2em;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+/* Info section: two columns, image and text, centered on the page */
+.info-section {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #e0f7fa; /* Light teal background */
+  border-radius: 10px;
+  padding: 24px 12px;
+  text-align: center;
+  /* Use inline-block for columns */
+}
+
+.info-image {
+  width: 100%;
+  max-width: 400px;
+  vertical-align: middle;
+  border-radius: 15px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.info-text {
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.info-text h3 {
+  color: #0277bd;
+  margin-top: 0;
+}
+
+.info-text p {
+  color: #006064;
+  margin-bottom: 0;
+}
